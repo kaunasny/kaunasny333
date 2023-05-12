@@ -1,0 +1,82 @@
+
+body {background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=900&t=st=1680599588~exp=1680600188~hmac=54615fc2b5a39a1eb958b030df1cf5898e6f5655bf123044a34843d510e6977a");
+    ; 
+    background-color:aqua;
+    height:auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
+    object-fit: fill;
+  } 
+  
+  .header  {
+    height: auto;
+    text-align: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 80px;
+    padding-top: 10px;
+    
+    
+      }
+      .head2 p {
+      font-size: 30px;
+      font-family: cursive;
+    
+      }
+  
+      .footer {
+  font-size: small;
+       text-align: right
+        }
+  
+  
+  
+  .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 10px;
+      padding: 10px;
+      font-family: "fantasy";
+      letter-spacing: .5px;
+      word-spacing: .5px;
+  
+  
+      
+      
+    }
+  
+    h2 {text-align: center;}
+    .grid-container p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+   pre {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "fantasy";
+    letter-spacing: .5px;
+      word-spacing: .5px;
+   }
+    
+  .grid-container div {
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=900&t=st=1680599588~exp=1680600188~hmac=54615fc2b5a39a1eb958b030df1cf5898e6f5655bf123044a34843d510e6977a");
+  ;
+  background-repeat: repeat;
+  object-fit: fit;
+  height: auto;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid thin;
+  margin-left: auto;
+      
+    }
+    
+    .grid-container img {
+  object-fit: cover;
+  width: auto;
+  max-height: 200px;
+  }
+  
